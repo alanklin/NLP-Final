@@ -1,0 +1,13 @@
+# Count PII tokens per row (anything not 'O')
+
+train_df['pii_count'] = train_df['labels'].apply(lambda x: sum(label != 'O' for label in x))
+
+# Plot the distribution of PII token counts
+
+plt.figure(figsize=(10, 6))
+sns.histplot(train_df['pii_count'], bins=30, kde=True)
+plt.title('Distribution of PII Token Counts per Document')
+plt.xlabel('Number of PII Tokens')
+plt.ylabel('Number of Documents')
+plt.grid(True)
+plt.show()
