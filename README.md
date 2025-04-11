@@ -1,10 +1,13 @@
-This repository contains code, notebook, and documentation on a team project for Natural Language Processing.
+# This repository contains code, notebook, and documentation on a team project for Natural Language Processing.
 
 Team Members: Pin Lyu, Trevor Petrin, Alan Lin
 
+
 The Kaggle competition can be found [here](https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/data).
 
-We will be using automated techniques such as Transformers to detect PII (Personally Identifiable Information) and assign labels such as:
+
+
+# We will be using automated techniques such as Transformers to detect PII (Personally Identifiable Information) and assign labels such as:
 
 NAME_STUDENT - The full or partial name of a student that is not necessarily the author of the essay. This excludes instructors, authors, and other person names.
 
