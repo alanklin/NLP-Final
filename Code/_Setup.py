@@ -44,10 +44,10 @@ train_path = data_path / "train.json"
 submission_path = data_path / "sample_submission.csv"
 
 # Path to external datasets
-external1 = data_path / "external_dataset_1.json"
-external2 = data_path / "external_dataset_2.json"
-external3 = data_path / "external_dataset_3.json"
-external4 = data_path / "external_dataset_4.csv"
+external1 = data_path / "external_data_1.json"
+external2 = data_path / "external_data_2.json"
+external3 = data_path / "external_data_3.json"
+external4 = data_path / "external_data_4.csv"
 
 # Import necessary libraries
 import pandas as pd
