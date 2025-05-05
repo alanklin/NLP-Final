@@ -44,10 +44,13 @@ train_path = data_path / "train.json"
 submission_path = data_path / "sample_submission.csv"
 
 # Path to external datasets
-external1 = data_path / "external_data_1.json"
-external2 = data_path / "external_data_2.json"
-external3 = data_path / "external_data_3.csv"
+external1 = data_path / "external_data_1.json" # synthetic data from Kaggle
+external2 = data_path / "external_data_2.json" # second synthetic data from Kaggle
+external3 = data_path / "external_data_3.csv" # this is our own synthetic data
+synth_reformat = data_path / "synthetic_reformat.csv" # reformatted synthetic data from Gemini
 
+
+complete_data = data_path / "complete_data.csv" # merged all data sources
 
 # Import necessary libraries
 import pandas as pd
