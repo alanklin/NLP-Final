@@ -51,8 +51,12 @@ synth_reformat = data_path / "synthetic_reformat.csv" # reformatted synthetic da
 
 
 complete_data = data_path / "complete_data.csv" # merged all data sources
+validation_data = data_path / "validation_data.csv" # validation data for model evaluation
 
 # Import necessary libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
+# Importing libraries for machine learning
+from sklearn.model_selection import train_test_split
